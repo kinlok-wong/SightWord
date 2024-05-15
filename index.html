@@ -48,11 +48,9 @@
             border-radius: 50%;
             margin-bottom: 1.5em;
             opacity: 0.75;
+            padding: 1 1;
         }
-        .click-button svg {
-            width: 48px;
-            height: 48px;
-        }
+
         .back-button {
             fill: #000;
             width: 48px;
@@ -254,7 +252,7 @@
 
         <div id="single-word-container" class="single-word-container text-center">
             <div class="word-container row align-items-center" id="word-container">
-                <div id="word" class="word col d-flex flex-column justify-content-center display-1 font-weight-bold">
+                <div id="word" class="word col d-flex flex-column justify-content-center display-1 font-weight-bold user-select-none">
                     Word</div>
                 <div id="finishImage" class="py-3" style="display: none;">
                 </div>
@@ -300,7 +298,7 @@
             </div>
             <div class="row my-3">
                 <div class="col-10 col-sm-12 mx-auto">
-                    <div id="sentence" class="fs-2"></div>
+                    <div id="sentence" class="fs-2 user-select-none"></div>
                 </div>
             </div>
             <div class="row mt-2">
